@@ -84,9 +84,7 @@ void waitForEnter() {
   while (true) {
     while (Serial.available() > 0) {
       char c = Serial.read();
-      if (c == '
-' || c == '
-') {
+      if (c == '\n' || c == '\r') {
         delay(50);
         flushSerialInput();
         return;

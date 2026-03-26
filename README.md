@@ -20,8 +20,6 @@ Kinderuniversiteit_LeaderArm-DigitalTwin_MWE/
 ├── blender/
 │   ├── leader_arm_blender_serial.py
 │   └── robot_arm.blend
-├── assets/
-│   └── arduino-serial-monitor-settings.png
 ├── .gitignore
 ├── LICENSE
 └── README.md
@@ -115,13 +113,9 @@ Replace `COM3` with the correct port on your system.
 
 This repository includes an MIT license in the root folder.
 
-Before publishing, update the copyright line in `LICENSE`:
-
 ```text
-Copyright (c) 2026 YOUR NAME
+Copyright (c) 2026 Tobe Thieren - KU Leuven Gent
 ```
-
-Replace `YOUR NAME` with your real name or organization name.
 
 ## License
 

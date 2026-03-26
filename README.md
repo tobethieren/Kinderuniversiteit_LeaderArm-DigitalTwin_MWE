@@ -90,7 +90,7 @@ The project version used here is intended to work with the script already availa
 
 1. Open `blender/robot_arm.blend`.
 2. Go to the **Scripting** workspace.
-3. Open or verify `leader_arm_blender_serial.py` in Blender's Text Editor.
+3. Open or verify `leader_arm_blender_serial.py` in Blender's scripting tab.
 4. Click **Run Script**.
 5. Move the physical leader arm.
 

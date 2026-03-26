@@ -19,10 +19,10 @@ const unsigned long SEND_INTERVAL_MS = 20;
 // The values below are example values so the sketch
 // compiles out of the box.
 // ======================================================
-const JointCalibration BASIS_CAL    = {0, 1023, -150.0f, 150.0f};
-const JointCalibration MAIN_ARM_CAL = {0, 1023,  -90.0f,  90.0f};
-const JointCalibration FORE_ARM_CAL = {0, 1023,  -90.0f,  90.0f};
-const JointCalibration WRIST_CAL    = {0, 1023,  -90.0f,  90.0f};
+const JointCalibration BASIS_CAL    = {0, 1023, 150.00f, -150.00f};
+const JointCalibration MAIN_ARM_CAL = {204, 820, 90.00f, -90.00f};
+const JointCalibration FORE_ARM_CAL = {204, 820, 90.00f, -90.00f};
+const JointCalibration WRIST_CAL    = {204, 820, -90.00f, 90.00f};
 // ======================================================
 
 // Set to true to print extra debug information.

@@ -52,9 +52,6 @@ const JointCalibration WRIST_CAL    = {...};
 
 8. Copy that block.
 
-Reference screenshot:
-`assets/arduino-serial-monitor-settings.png`
-
 ### 2. Upload the Blender streaming sketch
 
 1. Open `arduino/LeaderArm_Blender/LeaderArm_Blender.ino`.
